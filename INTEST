@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<stdlib.h>
+ 
+int main()
+{
+	int n,k,no,res=0;scanf("%d%d",&n,&k);
+	while(n!=0)
+	{
+		scanf("%d",&no);
+		if(no%k==0){res++;}
+		n--;
+	}printf("%d",res);
+	
+	return 0;
+} 
